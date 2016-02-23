@@ -1,0 +1,18 @@
+name: "Tom"
+age: 14
+job_title: "Senior content designer"
+grade: 7
+salary: "£50,000"
+pay_date: "29 February 2016"
+annual_leave: 25
+section: "User Experience and Design"
+directorate: "Business Transformation Group"
+manager:
+  name: "Ben Holliday"
+  phone: "0789 123 4567"
+office: "Leeds, ONE"
+role: [
+  "As a senior content designer you're expected to create content to support the DWP's digital portfolio of services and DWP content on GOV.UK."
+  "You'll be assigned to specific services and work as part of an agile team in each service you work on."
+  "Your work will involve line managing 3 staff."
+]

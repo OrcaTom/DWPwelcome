@@ -1,0 +1,16 @@
+name: "Leeds ONE"
+map:
+  lon: 53.790166
+  lat: -1.543319
+  desc: "Leeds ONE is located on the corner of the A61 and Meadow Lane."
+directions:
+  train: [
+    "The office is a 10 minute walk from Leeds mainline station."
+    "Exit the station by the main entrance by M&S."
+    "Go straight across the road to the bike shop."
+    "Take the stairs down, immediately to the right of the shop."
+    "Turn right and walk under the rail bridge."
+    "Cross the road at the crossing after the Marriott hotel."
+    "Turn right after crossing and carry on walking along the main road on the other side, it crosses the River Aire and bends to the left, then passes Asda HQ on the left."
+    "Leeds ONE is the building diagonally across the main junction - use the pedestrian crossings to cross to it."
+  ]
