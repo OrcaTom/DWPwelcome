@@ -1,8 +1,10 @@
 {% extends "govuk_template.html" %}
 
-{% set serviceName = "Welcome to DWP" %}
-
 {% block page_title %}Welcome to DWP{% endblock %}
+
+{% set global_header_text = "Welcome to DWP" %}
+{% set homepage_url = "/" %}
+{% set logo_link_title = "Home page" %}
 
 {% block head %}
   {% include "includes/head.html" %}

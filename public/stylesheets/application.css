@@ -2082,3 +2082,11 @@ input[type=number] {
   margin-bottom: 10px;
   list-style-type: none;
 }
+
+#global-header-bar {
+  background-color: #28a197;
+}
+
+#global-header #logo {
+  background-image: none;
+}
