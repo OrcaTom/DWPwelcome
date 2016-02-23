@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block main_content %}
+
+    <h1 class="heading-xlarge">{{ location.name }}</h1>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2356.9618659931252!2d{{ location.map.lat }}!3d{{ location.map.lon }}!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1455109263610"
+      width="600"
+      height="450"
+      frameborder="0"
+      style="border:0;background-color:grey" allowfullscreen></iframe>
+    <p>{{ location.map.desc }}</p>
+
+    {% if location.directions.train %}
+      <h2 class="heading-medium">From the train station</h2>
+      <ol class="list list-bullet">
+      {% for item in location.directions.train %}
+        <li>{{ item }}</li>
+      {% endfor %}
+      </ol>
+    {% endif %}
+
+    <h2 class="heading-medium">If you arrive by car</h2>
+    <p>There's no parking for staff at Leeds ONE. The nearest car park is at the Tetley building (£7 a day).</p>
+
+    <h2 class="heading-medium">Getting in and out</h2>
+    <p>You must sign in as a visitor each morning until you have a buildings pass.</p>
+    <p>Visitor passes will only work in the gate to the far left of reception as you come in. Once inside your visitor pass will open the security doors on each floor of the building.</p>
+    <p>If you're going for lunch and intending to come back to the office don't put your pass in the slot on the gate. Ask the concierge to let you through instead and give them your pass - remembering your pass number beforehand. You then won't have to sign in again when you return.</p>
+    <p>At the end of the day, put your visitor pass in the slot on the visitor's gate. The gate will open but will keep your pass. You don't need to sign out.</p>
+
+    <h2 class="heading-medium">Toilets</h2>
+    <p>Female and male toilets are located on each landing of the main stairs (behind reception and through two sets of double doors).
+   <h2 class="heading-medium">Eating and drinking</h2>
+   <p>There's a Costa coffee stand immediately behind reception.</p>
+   <p>Kitchen areas are located on each floor, and have fridges, kettles and microwaves.</p>
+   <p>Turn left out of the main entrance for the Crown Point shopping centre. There's a Boot's store, a small cafe upstaris in the Asda homeware store and a Subway fast food restaurant.</p>
+   <p>Turn right out of the building and head towards the large silver sky high rise building (Bridgewater Place) to find a Tesco metro, Philpotts sandwich delicatessen and an oriental lunch time takeaway 'Juici Sushi'.</p>
+
+{% endblock %}

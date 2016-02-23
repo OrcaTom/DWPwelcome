@@ -4,39 +4,37 @@
   GOV.UK prototype kit
 {% endblock %}
 
-{% block content %}
+{% block main_content %}
 
-<main id="content" role="main">
-  <div class="grid-row">
-    <div class="column-two-thirds">
+  <pre style="color:red;margin-top:10px;">{{ user.error }}</pre>
 
-      <h1 class="heading-xlarge">You at DWP</h1>
-	<p><b style="font-weight:700">Job title:</b> Senior content designer<br/>
-	<b style="font-weight:700">Civil service grade:</b> 7<br />
-	<b style="font-weight:700">Salary:</b> £50,000<br />
-	<b style="font-weight:700">You'll next be paid on:</b> 29 February 2016<br />
-<b style="font-weight:700">Annual leave:</b> 25 days a year</p>
+  <h1 class="heading-xlarge">{{ user.name }} at DWP</h1>
+  <p>
+    <b style="font-weight:700">Job title:</b> {{ user.job_title }}<br/>
+  	<b style="font-weight:700">Civil service grade:</b> {{ user.grade }}<br />
+  	<b style="font-weight:700">Salary:</b> {{ user.salary }}<br />
+  	<b style="font-weight:700">You'll next be paid on:</b> {{ user.pay_date }}<br />
+    <b style="font-weight:700">Annual leave:</b> {{ user.annual_leave }} days a year
+  </p>
+  <p>
+    <b style="font-weight:700">Section:</b> {{ user.section }}<br />
+    <b style="font-weight:700">Directorate:</b> {{ user.directorate }}<br />
+    <b style="font-weight:700">Your manager:</b> {{ user.manager.name }} {{ user.manager.phone }}
+  </p>
 
-	<p><b style="font-weight:700">Section:</b> User Experience and Design<br />
-	<b style="font-weight:700">Directorate:</b> Business Transformation Group<br />
-	<b style="font-weight:700">Your manager:</b> Ben Holliday, 0789 123 4567</p>
-	<h2 class="heading-medium">Your office</h2>
-		<p>Your main office is <strong>Leeds ONE</strong>, but you may be expected to travel to DWP offices in:</p>
-	<ul class="list list-bullet">
-		<li>Newcastle, Longbenton</li>
-		<li>London, Caxton House</li>
-		<li>Leeds, Quarry House</li>
-	</ul>
-	<h2 class="heading-medium">Your role</h2>
-	<p>As a senior content designer you're expected to create content to support the DWP's digital portfolio of services and DWP content on GOV.UK.</p>
-	<p>You'll be assigned to specific services and work as part of an agile team in each service you work on.</p>
-	<p>Your work will involve line managing 3 staff.</p>
+  <h2 class="heading-medium">Your office</h2>
+  <p>Your main office is <strong style="color:#005ea5">{{ user.office }}</strong> but you may be expected to travel to DWP offices in:</p>
+  <ul class="list list-bullet">
+    {% for item in general.offices %}
+        {% if item != user.office %}
+            <li>{{ item }}</li>
+        {% endif %}
+    {% endfor %}
+  </ul>
 
-		{% include "includes/otherLinks.html" %}
-    </div>
-  </div>
-</main>
+  <h2 class="heading-medium">Your role</h2>
+  {% for item in user.role %}
+    <p>{{ item }}</p>
+  {% endfor %}
 
 {% endblock %}
-
-
