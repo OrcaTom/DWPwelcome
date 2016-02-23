@@ -4,18 +4,14 @@
   GOV.UK prototype kit
 {% endblock %}
 
-{% block content %}
-
-<main id="content" role="main">
-  <div class="grid-row">
-    <div class="column-two-thirds">
+{% block main_content %}
 
       <h1 class="heading-xlarge">Travel and leave</h1>
       <h2 class="heading-medium">Expenses</h2>
       <p>You don't have to pay for your travel if both:</p>
       	<ul class="list list-bullet">
       		<li>you're working in any location (incuding other DWP offices) apart from your named main office</li>
-      		<li>the travel required isn't part of your regular daily travel to work</li> 
+      		<li>the travel required isn't part of your regular daily travel to work</li>
       	</ul>
       <p>You can claim accommodation if travelling the same day is impractical.</p>
       <p>You can claim up to £5 a day for lunch and £16 for an evening meal if away for work - make sure to keep your receipts.</p>
@@ -40,12 +36,4 @@
        <p>You should ask for leave at least 2 weeks in advance of taking it.</p>
       <p>Check with your line manager who to put in your out of office reply on your email if taking leave.</p>
 
-{% include "includes/otherLinks.html" %}
-
-    </div>
-  </div>
-</main>
-
 {% endblock %}
-
-
