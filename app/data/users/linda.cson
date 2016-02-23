@@ -1,0 +1,15 @@
+name: "Linda Anderson"
+job_title: "Subject Matter Expert"
+grade: 10
+salary: "72,975"
+pay_date: "29 February 2016"
+annual_leave: 30
+section: "Access To Work Operations"
+directorate: "Operations"
+manager:
+  name: "Andrew Corry"
+  phone: "0789 123 4567"
+office: "Leeds, ONE"
+role: [
+    
+]

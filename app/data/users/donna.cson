@@ -1,0 +1,15 @@
+name: "Donna Hughe"
+job_title: "Business Analyst"
+grade: 10
+salary: "98,000"
+pay_date: "29 February 2016"
+annual_leave: 25
+section: "Delivery & Things"
+directorate: "Business Transformation Group"
+manager:
+  name: "Barry Humpreys"
+  phone: "0789 123 4567"
+office: "Leeds, ONE"
+role: [
+  
+]
