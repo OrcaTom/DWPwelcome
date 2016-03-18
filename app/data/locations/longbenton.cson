@@ -1,7 +1,7 @@
 name: "Longbenton, Newcastle"
 map:
-  lon: 53.790166
-  lat: -1.543319
+  lon: 55.003361
+  lat: -1.580851
   desc: "Longbenton is located on the corner of the A61 and Meadow Lane. The DWP digital hub is in block 9, a 5 minute walk from the main site reception."
 directions:
   train: [
@@ -13,16 +13,15 @@ directions:
   ]
 gettinginandout: [
   "You must sign in as a visitor each morning until you have a buildings pass."
-  "Visitor passes will only work in the gate to the far left of reception as you come in. Once inside your visitor pass will open the security doors on each floor of the building."
-  "If you're going for lunch and intending to come back to the office don't put your pass in the slot on the gate. Ask the concierge to let you through instead and give them your pass - remembering your pass number beforehand. You then won't have to sign in again when you return."
-  "At the end of the day, put your visitor pass in the slot on the visitor's gate. The gate will open but will keep your pass. You don't need to sign out."
+  "You must be escorted from the main reception to block 9. If you ask at reception for your line manager they'll come and get you."
+  "You need to wear your pass at all times but you don't need it to access any area of block 9."
+  "At the end of the day, you must exit through the main reception and hand your pass in."
 ]
 toilets: [
-  "Female and male toilets are located on each landing of the main stairs (behind reception and through two sets of double doors)."
+  "Female and male toilets are located on the ground floor of block 9, by the central doors."
 ]
 eatinganddrinking: [
-  "There's a Costa coffee stand immediately behind reception."
-  "Kitchen areas are located on each floor, and have fridges, kettles and microwaves."
-  "Turn left out of the main entrance for the Crown Point shopping centre. There's a Boot's store, a small cafe upstaris in the Asda homeware store and a Subway fast food restaurant."
-  "Turn right out of the building and head towards the large silver sky high rise building (Bridgewater Place) to find a Tesco metro, Philpotts sandwich delicatessen and an oriental lunch time takeaway 'Juici Sushi'."
+  "There's a coffee and sandwich stand on the ground floor in the atrium."
+  "There's also a cafeteria in the leisure centre building near the main entrance."
+  "There are local shops and a supermarket at Four Lane Ends, a 10 minute walk away. Turn right out of the main site entrance."
 ]
