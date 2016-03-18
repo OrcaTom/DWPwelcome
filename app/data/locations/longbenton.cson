@@ -1,21 +1,15 @@
-name: "Leeds ONE"
+name: "Longbenton, Newcastle"
 map:
   lon: 53.790166
   lat: -1.543319
-  desc: "Leeds ONE is located on the corner of the A61 and Meadow Lane."
+  desc: "Longbenton is located on the corner of the A61 and Meadow Lane. The DWP digital hub is in block 9, a 5 minute walk from the main site reception."
 directions:
   train: [
-    "The office is a 10 minute walk from Leeds mainline station."
-    "Exit the station by the main entrance by M&S."
-    "Go straight across the road to the bike shop."
-    "Take the stairs down, immediately to the right of the shop."
-    "Turn right and walk under the rail bridge."
-    "Cross the road at the crossing after the Marriott hotel."
-    "Turn right after crossing and carry on walking along the main road on the other side, it crosses the River Aire and bends to the left, then passes Asda HQ on the left."
-    "Leeds ONE is the building diagonally across the main junction - use the pedestrian crossings to cross to it."
+    "Longbenton main entrance is a 5 minute walk from Longbenton metro station."
+    "If you're on a metro from Newcastle you need to cross the track and leave the station by the main entrance"
   ]
   car: [
-    "There's no parking for staff at Leeds ONE. The nearest car park is at the Tetley building (£7 a day)."
+    "There's no currently available parking for staff at Longbenton. The nearest parking is at Four Lane Ends metro station (£1 a day). Longbenton main entrance is a 10 minute walk away."
   ]
 gettinginandout:
   "You must sign in as a visitor each morning until you have a buildings pass."

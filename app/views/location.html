@@ -25,20 +25,22 @@
     {% endif %}
 
     <h2 class="heading-medium">If you arrive by car</h2>
-    <p>There's no parking for staff at Leeds ONE. The nearest car park is at the Tetley building (£7 a day).</p>
+    {% for item in location.directions.car %}
+      <p>{{ item }}</p>
+    {% endfor %}
 
     <h2 class="heading-medium">Getting in and out</h2>
-    <p>You must sign in as a visitor each morning until you have a buildings pass.</p>
-    <p>Visitor passes will only work in the gate to the far left of reception as you come in. Once inside your visitor pass will open the security doors on each floor of the building.</p>
-    <p>If you're going for lunch and intending to come back to the office don't put your pass in the slot on the gate. Ask the concierge to let you through instead and give them your pass - remembering your pass number beforehand. You then won't have to sign in again when you return.</p>
-    <p>At the end of the day, put your visitor pass in the slot on the visitor's gate. The gate will open but will keep your pass. You don't need to sign out.</p>
+    {% for item in location.gettinginandout %}
+      <p>{{ item }}</p>
+    {% endfor %}
 
     <h2 class="heading-medium">Toilets</h2>
-    <p>Female and male toilets are located on each landing of the main stairs (behind reception and through two sets of double doors).
+    {% for item in location.toilets %}
+      <p>{{ item }}</p>
+    {% endfor %}
    <h2 class="heading-medium">Eating and drinking</h2>
-   <p>There's a Costa coffee stand immediately behind reception.</p>
-   <p>Kitchen areas are located on each floor, and have fridges, kettles and microwaves.</p>
-   <p>Turn left out of the main entrance for the Crown Point shopping centre. There's a Boot's store, a small cafe upstaris in the Asda homeware store and a Subway fast food restaurant.</p>
-   <p>Turn right out of the building and head towards the large silver sky high rise building (Bridgewater Place) to find a Tesco metro, Philpotts sandwich delicatessen and an oriental lunch time takeaway 'Juici Sushi'.</p>
+    {% for item in location.eatinganddrinking %}
+      <p>{{ item }}</p>
+    {% endfor %}
 
 {% endblock %}
