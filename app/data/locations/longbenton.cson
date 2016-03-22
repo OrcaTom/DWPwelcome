@@ -2,10 +2,10 @@ name: "Longbenton, Newcastle"
 map:
   lon: 55.003361
   lat: -1.580851
-  desc: "Longbenton is located on the corner of the A61 and Meadow Lane. The DWP digital hub is in block 9, a 5 minute walk from the main site reception."
+  desc: "Benton Park View is located on Benton Park Road, Newcastle, NE98 1YX. The DWP digital hub is in block 9, a 5 minute walk from the main site reception."
 directions:
   train: [
-    "Longbenton main entrance is a 5 minute walk from Longbenton metro station."
+    "Benton Park View main entrance is a 5 minute walk from Longbenton metro station."
     "If you're on a metro from Newcastle you need to cross the track and leave the station by the main entrance"
   ]
   car: [
