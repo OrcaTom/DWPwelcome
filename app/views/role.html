@@ -18,11 +18,11 @@
   <p>
     <b style="font-weight:700">Section:</b> {{ user.section }}<br />
     <b style="font-weight:700">Directorate:</b> {{ user.directorate }}<br />
-    <b style="font-weight:700">Your manager:</b> {{ user.manager.name }} {{ user.manager.phone }}
+    <b style="font-weight:700">Line manager:</b> {{ user.manager.name }} {{ user.manager.phone }}
   </p>
 
   <h2 class="heading-medium">Your office</h2>
-  <p>Your main office is <strong style="color:#005ea5">{{ user.office }}</strong> but you may be expected to travel to DWP offices in:</p>
+  <p>Your main office is <strong style="color:#005ea5">{{ user.office }}</strong> but you may be expected to travel to other DWP offices in:</p>
   <ul class="list list-bullet">
     {% for item in general.offices %}
         {% if item != user.office %}
