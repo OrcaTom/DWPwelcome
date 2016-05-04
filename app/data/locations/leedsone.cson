@@ -2,7 +2,7 @@ name: "Leeds ONE"
 map:
   lon: 53.790166
   lat: -1.543319
-  desc: "Leeds ONE is located on the corner of the A61 and Meadow Lane."
+  desc: "Leeds One, City Office Park, LS11 5BD is located on the corner of the A61 and Meadow Lane."
 directions:
   train: [
     "The office is a 10 minute walk from Leeds mainline station."
@@ -15,7 +15,7 @@ directions:
     "Leeds ONE is the building diagonally across the main junction - use the pedestrian crossings to cross to it."
   ]
   car: [
-    "There's no parking for staff at Leeds ONE. The nearest car park is at the Tetley building (£7 a day)."
+    "There's no parking for visitors to Leeds ONE. The nearest car park is at the Tetley building (£7 a day). Staff parking is limited and there may be a waiting list to get a parking spot if you need one."
   ]
 gettinginandout: [
   "You must sign in as a visitor each morning until you have a buildings pass."
