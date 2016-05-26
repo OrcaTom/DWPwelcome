@@ -41,3 +41,25 @@
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 #global-header-bar { background-color:$turquoise; }
 #global-header #logo { background-image:none; }
+.welcome-heading {
+  margin-top:15px;;
+  margin-bottom:30px;
+}
+
+@import "dwp-header";
+.links-heading {
+  margin-top:60px;
+  padding-bottom:5px;
+  margin-bottom:15px;
+  border-bottom:1px solid $grey-3;
+}
+.other-links {
+  li {
+    font-size:16px;
+    a:link,a:visited { color:darken($turquoise,10); }
+    a:hover,a:active { color:$turquoise; }
+  }
+}
+.heading-xxlarge {
+  @include bold-80;
+}

@@ -3,6 +3,7 @@ var path          = require('path'),
     browserSync   = require('browser-sync'),
     nunjucks      = require('express-nunjucks'),
     favicon       = require('serve-favicon'),
+    moment        = require('moment'),
     // basicAuth     = require('basic-auth-connect'),
     // bodyParser    = require('body-parser'),
     // cookieParser  = require('cookie-parser'),
@@ -56,6 +57,9 @@ nunjucks.setup({
   });
   env.addFilter('sanssuffix', function(str) {
       return str.replace(".html","");
+  });
+  env.addFilter('date', function(date) {
+      return moment(date).format("Do MMM YYYY");
   });
 });
 

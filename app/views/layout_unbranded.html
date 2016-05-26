@@ -7,3 +7,25 @@
 {% block body_end %}
   {% include "includes/scripts.html" %}
 {% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <div class="department-logo">
+        <span class="royal-crest">
+          Department<br>for Work &amp; <br>Pensions
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      {% block main_content %}{% endblock %}
+    </div>
+    <div class="column-third">
+      {% include "includes/otherLinks.html" %}
+    </div>
+  </div>
+</main>
+{% endblock %}
