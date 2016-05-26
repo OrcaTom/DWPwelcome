@@ -59,7 +59,7 @@ nunjucks.setup({
       return str.replace(".html","");
   });
   env.addFilter('date', function(date) {
-      return moment(date).format("Do MMM YYYY");
+      return moment(date).format("Do MMMM YYYY");
   });
 });
 
