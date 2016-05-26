@@ -1,0 +1,60 @@
+{% extends "layout_unbranded.html" %}
+
+{% block page_title %}
+  DWP location – {{ location.name }}
+{% endblock %}
+
+{% block main_content %}
+
+    <h1 class="welcome-heading heading-xxlarge">Welcome</h1>
+    <p>You're due to start your job on <span class="bold-small">{{ date | date }}</span>.</p>
+    
+    <h2 class="heading-large">Your first day</h2>
+    <p>Your first day will start at <span class="">{{ location.name }}</span> at 9:30am.</p>
+    <p>On arrival, call <span class="">{{ location.contact }}</span></p>
+    <p>You'll be given everything else you need on your first day, including a laptop.</p>
+    <p>Dress code in your team is casual. It's acceptable to wear clean jeans, t-shirt and trainers if you wish. Just don't wear clothes displaying political slogans or sports team logos.</p>
+
+    <h1 class="heading-medium">{{ location.name }}</h1>
+    {% if location.address %}
+    <iframe width="600" height="450" frameborder="0" style="border:0;"
+src="https://www.google.com/maps/embed/v1/place?q={{ location.address | urlencode }}&key=AIzaSyCq-stqDj1MJKNxiSfzc4fh1TPGQs-XwC0" allowfullscreen></iframe>
+    {% else %}
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2356.9618659931252!2d{{ location.map.lat }}!3d{{ location.map.lon }}!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1455109263610"
+      width="600"
+      height="450"
+      frameborder="0"
+      style="border:0;background-color:grey" allowfullscreen></iframe>
+    {% endif %}
+    <p>{{ location.map.desc }}</p>
+
+    {% if location.directions.train %}
+      <h2 class="heading-medium">From the train station</h2>
+      <ol class="list list-bullet">
+      {% for item in location.directions.train %}
+        <li>{{ item }}</li>
+      {% endfor %}
+      </ol>
+    {% endif %}
+
+    <h2 class="heading-medium">If you arrive by car</h2>
+    {% for item in location.directions.car %}
+      <p>{{ item }}</p>
+    {% endfor %}
+
+    <h2 class="heading-medium">Getting in and out</h2>
+    {% for item in location.gettinginandout %}
+      <p>{{ item }}</p>
+    {% endfor %}
+
+    <h2 class="heading-medium">Toilets</h2>
+    {% for item in location.toilets %}
+      <p>{{ item }}</p>
+    {% endfor %}
+   <h2 class="heading-medium">Eating and drinking</h2>
+    {% for item in location.eatinganddrinking %}
+      <p>{{ item }}</p>
+    {% endfor %}
+
+{% endblock %}

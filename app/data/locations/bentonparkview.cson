@@ -1,0 +1,27 @@
+name: "Benton Park View, Newcastle"
+map:
+  lon: 55.003361
+  lat: -1.580851
+  desc: "Benton Park View is located on Benton Park Road, Newcastle, NE98 1YX. You must enter the site from the reception on Benton Park Road. The DWP digital hub is in block 9, a 5 minute walk from the main site reception."
+directions:
+  train: [
+    "Benton Park View main entrance is a 5 minute walk from Longbenton metro station."
+    "If you're on a metro from Newcastle you need to cross the track and leave the station by the main entrance"
+  ]
+  car: [
+    "There's no currently available parking for staff at Longbenton. The nearest parking is at Four Lane Ends metro station (£1 a day). Benton Park View main entrance is a 10 minute walk away along Benton Park Road."
+  ]
+gettinginandout: [
+  "You must sign in as a visitor until you have a buildings pass."
+  "You must be collected from the main reception. If you ask at reception for your line manager they'll come and get you."
+  "You need to wear your pass at all times but you don't need it to access any area of block 9."
+  "At the end of the day, you should exit through the main reception. If you were only given a day pass and not a weekly or monthly one then you'll need to hand it in and sign in again next morning."
+]
+toilets: [
+  "Toilets are located on the ground floor of block 9, by the doors."
+]
+eatinganddrinking: [
+  "There's a coffee and sandwich stand on the ground floor in the atrium."
+  "There's also a cafeteria in the leisure centre building near the main entrance."
+  "You can find local shops and a supermarket at Four Lane Ends, a 10 minute walk away. Turn right out of the main site entrance."
+]
