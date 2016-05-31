@@ -1,8 +1,10 @@
 name: "Leeds ONE"
+address: "Leeds One, City Office Park, LS11 5BD"
+contact: "Amanda Ettridge - 0113 2324879"
 map:
   lon: 53.790166
   lat: -1.543319
-  desc: "Leeds One, City Office Park, LS11 5BD is located on the corner of the A61 and Meadow Lane."
+  desc: "Leeds One is located on the corner of the A61 and Meadow Lane."
 directions:
   train: [
     "The office is a 10 minute walk from Leeds mainline station."

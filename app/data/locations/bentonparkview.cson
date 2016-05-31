@@ -1,8 +1,10 @@
 name: "Benton Park View"
+address: "Benton Park Road, Newcastle, NE7 7NF"
+contact: "Chris Harriott - 0191 216 2861"
 map:
   lon: 55.003361
   lat: -1.580851
-  desc: "Benton Park View is located on Benton Park Road, Newcastle, NE98 1YX. You must enter the site from the reception on Benton Park Road. The DWP digital hub is in block 9, a 5 minute walk from the main site reception."
+  desc: "You must enter the site from the reception on Benton Park Road. The DWP digital hub is in block 9, a 5 minute walk from the main site reception."
 directions:
   train: [
     "Benton Park View main entrance is a 5 minute walk from Longbenton metro station."
