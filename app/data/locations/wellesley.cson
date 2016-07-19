@@ -1,6 +1,6 @@
 name: "Wellesley House"
 address: "Wellesley House, 30 Wellington Road North, Stockport. SK4 1LS"
-contact: "Zoey Morgan - 01942 758330"
+contact: "Deb Murdoch - 0161 968 5520"
 directions:
   train: [
     "The nearest train station is Stockport, which is just over half a mile (a 15 minute walk) from Wellesley House."
@@ -12,11 +12,10 @@ directions:
   ]
   car: [
     "There’s no parking for visitors to Wellesley House."
-    "The nearest car park is at Heaton Lane SK4 1AS (open 6.30am to 6.30pm). It costs £8 per day."
-    "There's a short-stay pay and display car park at Great Egerton Street SK1 1RS (open 8am to 6pm). It costs £1.60 an hour."
+    "The nearest car park is at Heaton Lane SK4 1AS (open 6.30am to 6.30pm). It costs up to £8 per day."
   ]
 gettinginandout: [
-  "You must sign in as a visitor each morning until you have a building pass."
+  "You must sign in as a visitor each morning."
   "Once inside Wellesley House each floor has coded secure keypads. You'll be told the codes you need at reception on your first day in the office."
   "At the end of the day you must return your visitor pass at reception."
 ]
